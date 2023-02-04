@@ -1,3 +1,5 @@
+# adapted from https://medium.com/fintechexplained/flask-host-your-python-machine-learning-model-on-web-b598151886d
+
 from flask import Flask, render_template, request
 app = Flask('movie_recommender')
 from models import get_model
